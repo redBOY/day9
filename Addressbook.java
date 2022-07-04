@@ -20,5 +20,26 @@ public class Addressbook {
     public String getLastName() {
         return lastName;
     }
+    public void setLastName(String lastName) {
+        this.lastName=lastName;
+    }
+    public String getAddress() {
+        return address;
+    }
+    public void setAddress(String address) {
+        this.address=address;
+    }
+    public String getCity() {
+        return city;
+    }
+    public void setCity(String city) {
+        this.city=city;
+    }
+    public long getZip() {
+        return zip;
+    }
+    public void setZip(long zip) {
+        this.zip = zip;
+    }
 
-}
+
