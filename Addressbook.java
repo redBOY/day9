@@ -41,5 +41,37 @@ public class Addressbook {
     public void setZip(long zip) {
         this.zip = zip;
     }
+    public long getPhoneNumber() {
+        return phoneNumber;
+    }
+    public void setPhoneNumber(long phoneNumber) {
+        this.phoneNumber=phoneNumber;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail(String email) {
+        this.email=email;
+    }
+
+    public String toString() {
+        return "AddressBook[firstName=" +firstName+",  lastName="+ lastName+" ,address=" +address+", city=" +city+" ,state=" +state+ ",zip=" +zip+", phoneNumber="+phoneNumber+", email="+email+"]";
+
+    }
+    public Addressbook(String firstName, String lastName, String address, String city, String state, long phoneNumber,
+                       long zip, String email) {
+        super();
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.address=address;
+        this.city=city;
+        this.state=state;
+        this.zip=zip;
+        this.phoneNumber=phoneNumber;
+        this.email=email;
+
+    }
+
+}
 
 
